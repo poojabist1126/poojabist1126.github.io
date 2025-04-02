@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LensCraft Studio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+      }
+      header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      nav {
+        background-color: #d3d3d3;
+        text-align: center;
+        padding: 10px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      .container {
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+      }
+      .filters {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .filters button {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        margin: 5px;
+        cursor: pointer;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+      .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+      .testimonials {
+        background-color: white;
+        padding: 20px;
+        margin-top: 30px;
+        border-radius: 5px;
+      }
+      .footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>LENSCRAFT STUDIO</h1>
+      <p>Artistic Photography in Wellington</p>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="services.html">Services</a>
+      <a href="Blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+      <h2>Our Work</h2>
+      <div class="filters">
+        <button>All</button>
+        <button>Weddings</button>
+        <button>Portraits</button>
+        <button>Commercial</button>
+      </div>
+      <div class="gallery">
+        <img src="./assets/portfolio-page1.jpg" alt="Black & White Wedding" />
+        <img src="./assets/portfolio-page2.png" alt="Couple Portrait" />
+        <img src="./assets/portfolio-page3.png" alt="Creative Photography" />
+        <img src="./assets/portfolio-page4.png" alt="Indoor Portrait" />
+      </div>
+      <div class="testimonials">
+        <h3>Client Testimonials</h3>
+        <p>
+          "LensCraft Studio captured our wedding day perfectly. The photos are
+          stunning and really tell the story of our special day." <br /><strong
+            >- Rachel & Tom</strong
+          >
+        </p>
+        <p>
+          "The family portraits we got are absolutely beautiful. They managed to
+          capture our children's personalities perfectly." <br /><strong
+            >- The Patel Family</strong
+          >
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <p>&copy; 2025 LensCraft Studio. All rights reserved.</p>
+      <p>123 Cuba Street, Wellington, New Zealand</p>
+    </div>
+  </body>
+</html>
